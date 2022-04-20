@@ -1,9 +1,14 @@
 <template>
-  <Tutorial/>
+  <div>
+    <home-page/>
+  </div>
 </template>
-
 <script>
+import HomePage from '../components/template/HomePage.vue'
+
 export default {
-  name: 'IndexPage'
+  components: { HomePage }
 }
 </script>
+<style lang="scss" scoped>
+</style>
